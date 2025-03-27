@@ -9,6 +9,15 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 import time
 import re
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
+# Retrieve the API key from the environment
+API_KEY = os.getenv("OPENAI_API_KEY")
+if not API_KEY:
+    raise ValueError("API key not found. Please set it in the .env file.")
 
 # Try importing validators with fallback
 try:
