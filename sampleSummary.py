@@ -17,7 +17,7 @@ logging.basicConfig(
 )
 
 # Update API configuration
-API_KEY = "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"  # Directly use the key
+API_KEY = ""
 API_URL = "https://integrate.api.nvidia.com/v1/chat/completions"  # Update the API URL to include the endpoint
 
 # Add API version and model configuration
