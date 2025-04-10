@@ -10,7 +10,7 @@ from typing import Optional
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # DeepSeek API configuration
-API_KEY = "sk-ed3a28f399e5411f8335a84558158c25"  # Replace with your DeepSeek API key
+API_KEY = ""  
 API_URL = "https://api.deepseek.com/v1/summarize"
 
 app = FastAPI()
