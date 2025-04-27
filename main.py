@@ -37,7 +37,7 @@ API_KEY = "sk-proj-eZBdh7N3omvNmMImUfcpAy8-Fc1VnNPl-F5ZbL2Ft_IJdGg3mNQZL_QYoQnto
 API_URL = "https://api.openai.com/v1/chat/completions"  
 
 # Update model configuration
-MODEL_NAME = "gpt-3.5-turbo"  # or "gpt-4" if you have access
+MODEL_NAME = "gpt-4"  # or "gpt-4" if you have access
 
 # Improved retry strategy
 retry_strategy = Retry(
